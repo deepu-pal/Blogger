@@ -8,7 +8,7 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import { TableVirtuoso, TableComponents } from 'react-virtuoso';
 import {Data,ColumnData} from '../Ipldata';
-import { sample } from './IplContents';
+import { teamCaptian } from './IplContents';
 
 
 function createData(
@@ -27,7 +27,7 @@ const columns: ColumnData[] = [
   },
   {
     width: 120,
-    label: 'Vanue',
+    label: 'Captain',
     dataKey: 'captain',
 
   },
@@ -35,7 +35,7 @@ const columns: ColumnData[] = [
 ];
 
 const rows: Data[] = Array.from({ length: 9 }, (_, index) => {
-  const randomSelection = sample[index % sample.length];
+  const randomSelection = teamCaptian[index % teamCaptian.length];
   return createData(index, ...randomSelection);
 });
 
