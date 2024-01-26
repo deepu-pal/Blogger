@@ -1,5 +1,5 @@
 import React, { ReactNode } from 'react';
-import Ads from '../Add';
+import Ads from '../Ads';
 
 type Props = {
     children: ReactNode;
