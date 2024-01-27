@@ -1,5 +1,6 @@
 import React from 'react';
-
+import ramImage from '../img/main.jpg';
+import ads from '../img/ads.jpg';
 const BlogCarousel = () => {
   return (
     <div id="carouselExampleIndicators" className="carousel slide container" data-bs-ride="carousel">
@@ -30,12 +31,10 @@ const BlogCarousel = () => {
                   </a>
                 </div>
                 <div className="col-auto d-none d-lg-block">
-                  <svg className="bd-placeholder-img" width="210" height="250" xmlns="http://www.w3.org/2000/svg"
-                    role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
-                    focusable="false">
-                    <title>Placeholder</title>
-                    <img src="#" width="100%" height="100%" alt="Random Image" />
-                  </svg>
+                <img src={ramImage} className="float-end rounded img-fluid" alt="Loading img.." />
+
+                    
+                  {/* </svg> */}
                 </div>
               </div>
             </div>
@@ -55,12 +54,7 @@ const BlogCarousel = () => {
                   </a>
                 </div>
                 <div className="col-auto d-none d-lg-block">
-                  <svg className="bd-placeholder-img" width="210" height="250" xmlns="http://www.w3.org/2000/svg"
-                    role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
-                    focusable="false">
-                    <title>Placeholder</title>
-                    <img src="#" width="100%" height="100%" alt="Random Image" />
-                  </svg>
+                <img src={ads} className="float-end rounded img-fluid" alt="Loading img.." />
                 </div>
               </div>
             </div>
