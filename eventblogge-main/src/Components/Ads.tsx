@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './ScrollMenu.css'; // Adjust the path based on your project structure
-import Ad from '../Ads/SideAds1';
+import Ad from '../Ads/SideAds';
 import ads1 from '../img/sddefault.jpg';
 import ads2 from '../img/Ads2.jpg';
 

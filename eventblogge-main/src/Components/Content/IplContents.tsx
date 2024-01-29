@@ -17,7 +17,7 @@ export const teamCaptian: readonly Sample[] = [
 
 export const teamVenue: readonly Sample[] = [
     ['Ahmadabad', 'Narendra Modi Stadium'],
-    ['Mumbai', 'ankhede Stadium'],
+    ['Mumbai', 'Vankhede Stadium'],
     ['Delhi', 'Arun Jaitley Stadium'],
     ['Hyderabad', 'Rajiv Gandhi International cricket Stadium'],
     ['Kolkata', 'Eden Garden'],
