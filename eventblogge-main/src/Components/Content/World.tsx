@@ -1,5 +1,5 @@
 import React from "react";
-import ReactVirtualizedTable from "../Add_on/table";
+import ReactVirtualizedTable from "../Add_on/IPLTeamAndVenue";
 
 
 const WorldArticle = () => {

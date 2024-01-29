@@ -8,6 +8,8 @@ import BlogCarousel from './Components/Nextpost';
 import Footer from './Components/Footer';
 import { useEffect } from "react";
 import { WorldPage } from './Pages/WorldPage';
+import { IPLPage } from './Pages/IPLPage';
+import { Sports } from './Pages/Sports';
 function App() {
     const location = useLocation();
 
@@ -21,7 +23,9 @@ function App() {
       <Header/>
       <div key={location.pathname}>
           <Routes key={location.pathname} location={location}>
-            <Route path="*" index element={<WorldPage />} />
+            <Route path="/world" index element={<WorldPage />} />
+            <Route path="/ipl" index element={<IPLPage />} />
+            <Route path="/sport" index element={<Sports />} />
           </Routes>
         </div>
       <Footer/>

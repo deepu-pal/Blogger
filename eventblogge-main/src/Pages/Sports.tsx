@@ -10,15 +10,15 @@ import Reveal from "../Components/Content/IPLReveal";
 import Football from "../Components/Content/Footballinfodata";
 import IplData2 from "../Components/Content/IPLTeamsCaptainAndVenue";
 import IPLRevealHeading from "../Components/Content/IPLRevealHeading";
+import FootballinfoDataHeading from "../Components/Content/FootballInfoDataHeading";
 
-export const WorldPage = () => {
+export const Sports = () => {
   return (
     <React.Fragment>
-        <WorldHeading/>
+        <FootballinfoDataHeading/>
         <BlogCarousel/>
         <MainBlog>
-        <WorldArticle />
-        <WorldAdditionalArticle />
+        <Football />
         </MainBlog>
         
     </React.Fragment>
