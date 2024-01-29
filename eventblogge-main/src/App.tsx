@@ -8,6 +8,7 @@ import BlogCarousel from './Components/Nextpost';
 import Footer from './Components/Footer';
 import { useEffect } from "react";
 import { WorldPage } from './Pages/WorldPage';
+import AdContainer from './Components/AdContainer';
 function App() {
     const location = useLocation();
 
