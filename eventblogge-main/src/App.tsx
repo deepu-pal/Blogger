@@ -23,7 +23,7 @@ function App() {
       <Header/>
       <div key={location.pathname}>
           <Routes key={location.pathname} location={location}>
-            <Route path="/world" index element={<WorldPage />} />
+            <Route path="/*" index element={<WorldPage />} />
             <Route path="/ipl" index element={<IPLPage />} />
             <Route path="/sport" index element={<Sports />} />
           </Routes>
