@@ -1,8 +1,8 @@
 import React from "react";
 
 import { Col } from "react-bootstrap";
-import iplteam from '../../img/iplteam.jpg';
-import { FeaturedBlogPost } from "../Utils/Blog";
+import iplteam from '../../../img/iplteam.jpg';
+import { FeaturedBlogPost } from "../../Utils/Blog";
 
 const IPLRevealHeading = () => {
     return (

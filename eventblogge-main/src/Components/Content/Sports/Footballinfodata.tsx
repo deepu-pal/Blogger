@@ -1,7 +1,4 @@
 import React from "react";
-import ReactVirtualizedTable from "../Add_on/IPLTeamAndVenue";
-
-
 const Football = () => {
     return (
         <React.Fragment>

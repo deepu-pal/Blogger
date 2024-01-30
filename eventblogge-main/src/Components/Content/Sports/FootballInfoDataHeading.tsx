@@ -1,8 +1,8 @@
 import React from "react";
 
 import { Col, Container, Row } from "react-bootstrap";
-import football from '../../img/football.jpg';
-import { FeaturedBlogPost } from "../Utils/Blog";
+import football from '../../../img/football.jpg';
+import { FeaturedBlogPost } from "../../Utils/Blog";
 
 const FootballinfoDataHeading = () => {
     return (
