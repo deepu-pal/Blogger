@@ -7,7 +7,8 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import { TableVirtuoso, TableComponents } from 'react-virtuoso';
-import { teamVenue } from '../Content/IplContents';
+
+import { teamVenue } from '../Content/IPL/IplContents';
 
 export interface teamAndCity{
     id:number;

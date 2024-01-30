@@ -3,8 +3,8 @@ import React from "react";
 
 import BlogCarousel from "../Components/Nextpost";
 import { MainBlog } from "../Components/Utils/MainBlog";
-import IPLRevealHeading from "../Components/Content/IPLRevealHeading";
-import IPLReveal from "../Components/Content/IPLReveal";
+import IPLRevealHeading from "../Components/Content/IPL/IPLRevealHeading";
+import IPLReveal from "../Components/Content/IPL/IPLReveal";
 
 export const Reveal = () => {
   return (

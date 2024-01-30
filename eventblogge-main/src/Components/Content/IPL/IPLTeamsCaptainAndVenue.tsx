@@ -1,8 +1,8 @@
 import React from "react";
-import TeamAndVenue from "../Add_on/IPLTeamAndVenue";
-import TeamAndCaptain from "../Add_on/IPLTeamAndCaptain";
+import TeamAndVenue from "../../Add_on/IPLTeamAndVenue";
+import TeamAndCaptain from "../../Add_on/IPLTeamAndCaptain";
 import { teamPlayers } from "./IplContents";
-import ramImage from '../../img/iplteamcaptain.jpg';
+import ramImage from '../../../img/iplteamcaptain.jpg';
 const IPLTeamsCaptainVenue = () => {
     return (
         <React.Fragment >

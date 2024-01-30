@@ -1,8 +1,8 @@
 import React from "react";
 import BlogCarousel from "../Components/Nextpost";
 import { MainBlog } from "../Components/Utils/MainBlog";
-import IPLTeamsCaptainVenue from "../Components/Content/IPLTeamsCaptainAndVenue";
-import IPLTeamCaptainValueHeading from "../Components/Content/IPLTeamCaptainAndValueHeading";
+import IPLTeamCaptainValueHeading from "../Components/Content/IPL/IPLTeamCaptainAndValueHeading";
+import IPLTeamsCaptainVenue from "../Components/Content/IPL/IPLTeamsCaptainAndVenue";
 
 export const IPLPage = () => {
   return (

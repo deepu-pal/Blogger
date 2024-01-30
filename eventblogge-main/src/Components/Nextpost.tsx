@@ -23,7 +23,7 @@ const BlogCarousel = () => {
                   <h3 className="mb-0">IPL 2024 Information</h3>
                   <div className="mb-1 text-body-secondary">Feb 12</div>
                   <p className="card-text mb-auto">The wait is finally over! IPL 2024 has been officially announced. </p>
-                  <a href="/ipl" className="icon-link gap-1 icon-link-hover stretched-link ">
+                  <a href="/iplcaptain" className="icon-link gap-1 icon-link-hover stretched-link ">
                     Continue reading
                     <svg className="bi">
                       <use xlinkHref="#chevron-right"></use>

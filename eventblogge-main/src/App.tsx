@@ -24,7 +24,8 @@ function App() {
       <Header/>
       <div key={location.pathname}>
           <Routes key={location.pathname} location={location}>
-            <Route path="/*" index element={<WorldPage />} />
+          <Route path="*" index element={<WorldPage />} />
+            <Route path="/world" index element={<WorldPage />} />
             <Route path="/ipl" index element={<IPLPage />} />
             <Route path="/sports" index element={<Sports />} />
             <Route path="/iplcaptain" index element={<Reveal />} />

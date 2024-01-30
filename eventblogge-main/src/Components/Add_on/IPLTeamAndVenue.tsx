@@ -8,7 +8,7 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import { TableVirtuoso, TableComponents } from 'react-virtuoso';
 import {Data,ColumnData} from '../Ipldata';
-import { teamCaptian } from '../Content/IplContents';
+import { teamCaptian } from '../Content/IPL/IplContents';
 
 
 function createData(
