@@ -6,24 +6,23 @@ import { Typography } from "@mui/material";
 
 const ScrollMenu = () => {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
-
-  const handleLinkClick = (event: React.MouseEvent<HTMLAnchorElement>, index: number) => {
-    event.preventDefault();
+  const handleLinkClick = (index: number) => {
     setActiveIndex((prevActiveIndex) => (prevActiveIndex === index ? null : index));
   };
+
   return (
     <div className=" container nav-scroller px-1 mb-3 border-top">
         <nav className="nav nav-underline justify-content-between navbar-expand scrollmenu">
         {navItems.map((item, index) => (
             
-            <a
+            <Link
           key={index}
-          onClick={(e) => handleLinkClick(e, index)}
+          onClick={(e) => handleLinkClick(index)}
           className={`nav-item nav-link link-body-emphasis${activeIndex === index ? ' active' : ''}`}
-          href={item.link}
+          to={item.link}
         >
           {item.title}
-        </a>
+        </Link>
             // <a className={({isActive}) => `nav-item nav-link link-body-emphasis ${isActive ? "text-orange-600 ":"text-gray-700"}` href={item.link}>{item.title}</a>
           ))}
           
