@@ -1,6 +1,7 @@
 import React from 'react';
 import ramImage from '../img/main.jpg';
 import ads from '../img/ads.jpg';
+import iplteam from '../img/captain.jpg';
 const BlogCarousel = () => {
   return (
     <div id="carouselExampleIndicators" className="carousel slide container" data-bs-ride="carousel">
@@ -18,12 +19,11 @@ const BlogCarousel = () => {
             <div className="col-md-6">
               <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                 <div className="col p-4 d-flex flex-column position-static">
-                  <strong className="d-inline-block mb-2 text-primary-emphasis">World</strong>
-                  <h3 className="mb-0">Featured post</h3>
-                  <div className="mb-1 text-body-secondary">Nov 12</div>
-                  <p className="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to
-                    additional content.</p>
-                  <a href="#" className="icon-link gap-1 icon-link-hover stretched-link">
+                  <strong className="d-inline-block mb-2 text-primary-emphasis">IPL</strong>
+                  <h3 className="mb-0">IPL 2024 Information</h3>
+                  <div className="mb-1 text-body-secondary">Feb 12</div>
+                  <p className="card-text mb-auto">The wait is finally over! IPL 2024 has been officially announced. </p>
+                  <a href="/ipl" className="icon-link gap-1 icon-link-hover stretched-link ">
                     Continue reading
                     <svg className="bi">
                       <use xlinkHref="#chevron-right"></use>
@@ -31,10 +31,9 @@ const BlogCarousel = () => {
                   </a>
                 </div>
                 <div className="col-auto d-none d-lg-block">
-                <img src={ramImage} className="float-end rounded img-fluid" alt="Loading img.." />
+                <img src={iplteam} className="float-end rounded img-fluid" alt="Loading img.." />
 
-                    
-                  {/* </svg> */}
+                
                 </div>
               </div>
             </div>

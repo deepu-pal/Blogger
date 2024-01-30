@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Col, Container, Row } from "react-bootstrap";
+import { Col} from "react-bootstrap";
 import iplteam from '../../img/iplteam.jpg';
 import { FeaturedBlogPost } from "../Utils/Blog";
 

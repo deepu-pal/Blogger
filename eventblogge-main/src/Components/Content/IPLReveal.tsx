@@ -2,7 +2,7 @@ import React from "react";
 import ReactVirtualizedTable from "../Add_on/IPLTeamAndVenue";
 
 
-const Reveal = () => {
+const IPLReveal = () => {
     return (
         <React.Fragment>
             <article className="blog-post fs-5">
@@ -35,4 +35,4 @@ const Reveal = () => {
     );
 };
 
-export default Reveal;
+export default IPLReveal;
