@@ -1,16 +1,19 @@
-import { useState } from 'react';
+
 import { Route, Routes, useLocation } from "react-router-dom";
 import React from 'react';
 import Header from './Components/Header';
-
-
-import BlogCarousel from './Components/Nextpost';
 import Footer from './Components/Footer';
 import { useEffect } from "react";
 import { WorldPage } from './Pages/WorldPage';
 import { IPLPage } from './Pages/IPLPage';
 import { Sports } from './Pages/Sports';
+import { CRISPR_Case9 } from './Pages/ScienceCRISPR-Cas9Page';
 import { Reveal } from './Pages/IPLRevealCaptain';
+import { Aurora } from "./Pages/ScienceAuroraPage";
+import { NiteshKumar } from "./Pages/IndiaNiteshKumarCMBihar";
+import { Sustainabile } from "./Pages/TechnologySustainableIT";
+import { HemantSeron } from "./Pages/IndiaHemantSeronCMJharkhand";
+import { Blockchains } from "./Pages/TechnologyBlockchain";
 function App() {
     const location = useLocation();
 
@@ -29,6 +32,12 @@ function App() {
             <Route path="/ipl" index element={<IPLPage />} />
             <Route path="/sports" index element={<Sports />} />
             <Route path="/iplcaptain" index element={<Reveal />} />
+            <Route path="/science" index element={<CRISPR_Case9 />} />
+            <Route path="/aurora" index element={<Aurora />} />
+            <Route path="/india" index element={<NiteshKumar />} />
+            <Route path="/politics" index element={<HemantSeron />} />
+            <Route path="/technology" index element={<Blockchains />} />
+            <Route path="/sustainable" index element={<Sustainabile />} />
           </Routes>
         </div>
       <Footer/>

@@ -1,4 +1,5 @@
 import React from "react";
+import iplteam from '../../../img/iplteamcaptain.jpg';
 const IPLReveal = () => {
     return (
         <React.Fragment>
@@ -8,6 +9,8 @@ const IPLReveal = () => {
                 <p>The wait is finally over! IPL 2024 has been officially announced, and cricket enthusiasts around the globe are gearing up for another season of thrilling
                     matches, spectacular performances, and unforgettable moments. The 2024 edition promises to be more electrifying than ever before, with new teams,
                     talented players, and intense rivalries.</p>
+                <br />
+                <img src={iplteam} className="float-end rounded img-fluid" alt="Loading img.." style={{ width: '100%', height: 'auto' }}/>
                 <h3>New Captains, New Rivalries</h3>
                 <p>One of the most exciting aspects of IPL 2024 is the introduction of new Captains into the league. The expansion brings fresh faces, strategies, and dynamics to the tournament, creating an even more competitive and unpredictable environment. Fans are eager to witness how these new additions will shake up the established order and make their mark on the league.</p>
 

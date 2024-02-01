@@ -2,7 +2,7 @@ import React from "react";
 import TeamAndVenue from "../../Add_on/IPLTeamAndVenue";
 import TeamAndCaptain from "../../Add_on/IPLTeamAndCaptain";
 import { teamPlayers } from "./IplContents";
-import ramImage from '../../../img/iplteamcaptain.jpg';
+import iplteam from '../../../img/iplteamcaptain.jpg';
 const IPLTeamsCaptainVenue = () => {
     return (
         <React.Fragment >
@@ -16,7 +16,7 @@ const IPLTeamsCaptainVenue = () => {
                     This comprehensive article provides a detailed breakdown of the IPL 2024 Schedule or Time Table, including match dates, competing teams, and fixtures. We aim to offer a clear and informative overview of the tournament, ensuring readers have all the essential information at their fingertips.
                 </p>
                 <br />
-                <img src={ramImage} className="float-end rounded img-fluid" alt="Loading img.." style={{ width: '100%', height: 'auto' }}/>
+                <img src={iplteam} className="float-end rounded img-fluid" alt="Loading img.." style={{ width: '100%', height: 'auto' }}/>
                 <br />
                 <h3>
                     1. Locations for IPL 2024
