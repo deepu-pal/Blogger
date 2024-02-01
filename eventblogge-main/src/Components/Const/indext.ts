@@ -28,8 +28,8 @@ export const navItems = [
         link: "/politics",
     },
     {
-        title: "Views",
-        link: "/views",
+        title: "Velentine Event",
+        link: "/Velentineevent",
     },
     {
         title: "Science",

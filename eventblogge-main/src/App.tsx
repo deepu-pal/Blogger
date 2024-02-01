@@ -14,6 +14,8 @@ import { NiteshKumar } from "./Pages/IndiaNiteshKumarCMBihar";
 import { Sustainabile } from "./Pages/TechnologySustainableIT";
 import { HemantSeron } from "./Pages/IndiaHemantSeronCMJharkhand";
 import { Blockchains } from "./Pages/TechnologyBlockchain";
+import { JHCMResign } from "./Pages/PoliticsJharkhandCMResign";
+import { Velentineevent } from "./Pages/Velentinepage";
 function App() {
     const location = useLocation();
 
@@ -34,10 +36,12 @@ function App() {
             <Route path="/iplcaptain" index element={<Reveal />} />
             <Route path="/science" index element={<CRISPR_Case9 />} />
             <Route path="/aurora" index element={<Aurora />} />
-            <Route path="/india" index element={<NiteshKumar />} />
+            <Route path="/india" index element={<JHCMResign />} />
             <Route path="/politics" index element={<HemantSeron />} />
             <Route path="/technology" index element={<Blockchains />} />
             <Route path="/sustainable" index element={<Sustainabile />} />
+            <Route path='/niteshkumar' index element={<NiteshKumar/>}/>
+            <Route path='/velentineevent' index element={<Velentineevent/>}/>
           </Routes>
         </div>
       <Footer/>

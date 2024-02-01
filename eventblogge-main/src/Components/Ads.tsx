@@ -10,9 +10,10 @@ const Ads = () => {
     <div className="col-md-4">
                     <div className="position-sticky" style={{ top: '2rem' }}>
                         <div className="p-4 mb-3 bg-body-tertiary rounded">
-                            <h4 className="fst-italic">About</h4>
-                            <p className="mb-0">Customize this section to tell your visitors a little bit about your publication, writers,
-                                content, or something else entirely. Totally up to you.</p>
+                            <h4 className="fst-italic">Welcome to Event Blogger!</h4>
+                            <p className="mb-0">
+
+Event Blogger is your hub for insightful content spanning current political news in India, science, technology, world affairs, and sports. Our approach is distinctive and concise. Join our community of readers seeking to stay informed, engaged, and inspired. Discover articles tailored to your interests in politics, science, technology, world news, or sports.</p>
                         </div>
 
                         <div>
@@ -22,7 +23,7 @@ const Ads = () => {
                         </div>
                         <div className='mt-2'>
 
-                            <Ad imageUrl={ads2} link={'https://www.google.com/'} />
+                            <Ad imageUrl={ads2} link={'https://www.facebook.com/'} />
 
                         </div>
                     </div>
