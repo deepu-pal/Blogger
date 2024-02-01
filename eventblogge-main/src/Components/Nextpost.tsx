@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
 import aurora from '../img/Scienceaurora.jpg'
 import iplteam from '../img/captain.jpg';
 import hemantNextPost from '../img/hemantNextPost.jpg';
 import Bihar_CM_Nitish_Kumar_next from '../img/Bihar_CM_Nitish_Kumar_next.jpg';
 import SustanableIT from '../img/SustanableIT.jpg';
 const BlogCarousel = () => {
+  
+
   return (
     <div id="carouselExampleIndicators" className="carousel slide container" data-bs-ride="carousel">
       <div className="carousel-indicators">
@@ -27,7 +29,7 @@ const BlogCarousel = () => {
                   <a href="/iplcaptain" className="icon-link gap-1 icon-link-hover stretched-link ">
                     Continue reading
                     <svg className="bi">
-                      <use xlinkHref="#chevron-right"></use>
+                      <use xlinkHref="#chevron-right" />
                     </svg>
                   </a>
                 </div>
@@ -133,7 +135,7 @@ const BlogCarousel = () => {
         </div>
         {/* Add more carousel items as needed */}
       </div>
-      <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      {/* <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
         data-bs-slide="prev">
         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
         <span className="visually-hidden">Previous</span>
@@ -142,7 +144,15 @@ const BlogCarousel = () => {
         data-bs-slide="next">
         <span className="carousel-control-next-icon" aria-hidden="true"></span>
         <span className="visually-hidden">Next</span>
+      </button> */}
+      {/* <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span className="visually-hidden">Previous</span>
       </button>
+      <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+        <span className="visually-hidden">Next</span>
+      </button> */}
     </div>
   );
 }
