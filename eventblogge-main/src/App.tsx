@@ -43,6 +43,7 @@ function App() {
             <Route path="/sustainable" index element={<Sustainabile />} />
             <Route path='/niteshkumar' index element={<NiteshKumar/>}/>
             <Route path='/velentineevent' index element={<Velentineevent/>}/>
+            <Route path='/updates' index element={<GazaPage/>}/>
           </Routes>
         </div>
       <Footer/>
