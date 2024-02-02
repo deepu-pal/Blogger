@@ -2,21 +2,21 @@ import React from "react";
 
 
 import BlogCarousel from "../Components/Nextpost";
-import WorldHeading from "../Components/Content/World/WorldHeading";
 import { MainBlog } from "../Components/Utils/MainBlog";
-import WorldArticle from "../Components/Content/World/World";
+import GazaWarHeading from "../Components/Content/Updates/GazaWarHeading";
+import GazaWar from "../Components/Content/Updates/GazaWar";
 
 
 
 
-export const WorldPage = () => {
+export const GazaPage = () => {
   return (
     <React.Fragment>
-        <WorldHeading/>
+        <GazaWarHeading/>
         <BlogCarousel/>
         <MainBlog>
-        <WorldArticle />
-        {/* <WorldAdditionalArticle /> */}
+        <GazaWar />
+        
         </MainBlog>
         
     </React.Fragment>
