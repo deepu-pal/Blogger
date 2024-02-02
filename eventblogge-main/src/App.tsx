@@ -15,7 +15,7 @@ import { Sustainabile } from "./Pages/TechnologySustainableIT";
 import { HemantSeron } from "./Pages/IndiaHemantSeronCMJharkhand";
 import { Blockchains } from "./Pages/TechnologyBlockchain";
 import { JHCMResign } from "./Pages/PoliticsJharkhandCMResign";
-import { Velentineevent } from "./Pages/Velentinepage";
+import { Event } from "./Pages/Velentinepage";
 function App() {
     const location = useLocation();
 
@@ -41,7 +41,7 @@ function App() {
             <Route path="/technology" index element={<Blockchains />} />
             <Route path="/sustainable" index element={<Sustainabile />} />
             <Route path='/niteshkumar' index element={<NiteshKumar/>}/>
-            <Route path='/velentineevent' index element={<Velentineevent/>}/>
+            <Route path='/velentineevent' index element={<Event/>}/>
           </Routes>
         </div>
       <Footer/>
