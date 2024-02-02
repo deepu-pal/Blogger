@@ -1,5 +1,5 @@
 import React from "react";
-
+import hemant from '../../../img/hemant.jpg';
 const JharkhandCM = () => {
     return (
         <React.Fragment>
@@ -7,6 +7,9 @@ const JharkhandCM = () => {
                 <h3>
                     Missing Jharkhand CM <strong>Hemant Soren</strong>
                 </h3>
+                <br />
+                <img src={hemant} className="float-end rounded img-fluid" alt="Loading img.." style={{ width: '100%', height: 'auto' }}/>
+                <br /><br />
                 <p>
                     Hemant Soren  is an Indian politician from Jharkhand, who is the 5th and current Chief Minister of Jharkhand. He is also the working president of the Jharkhand Mukti Morcha, a political party in Jharkhand. He represents Barhait constituency in the Jharkhand Legislative Assembly since 2014 and from Dumka from 2019 to 2020. <br />
                     Chief Minister Hemant Soren was reported to be “missing" for several hours before resurfacing in Ranchi, the state capital, on Tuesday. The Jharkhand Mukti Morcha (JMM) leader went to Delhi for questioning by the Enforcement Directorate (ED) in a money laundering case, but the federal agency said that it failed to locate the leader. However, the federal agency investigators found some ‘incriminating’ evidence when they searched his residence and seized his BMW car and ₹36 lakh in cash.

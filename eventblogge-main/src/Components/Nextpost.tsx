@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react';
 import aurora from '../img/Scienceaurora.jpg'
 import iplteam from '../img/captain.jpg';
 import hemantNextPost from '../img/hemantNextPost.jpg';
+import Bihar_CM_Nitish_Kumar_next from '../img/Bihar_CM_Nitish_Kumar_next.jpg';
 import SustanableIT from '../img/SustanableIT.jpg';
 const BlogCarousel = () => {
   
@@ -105,7 +106,34 @@ const BlogCarousel = () => {
             </div>
           </div>
         </div>
-        
+        <div className="carousel-item ">
+          <div className="row mb-2">
+            <div className="col-md-6">
+              <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div className="col p-4 d-flex flex-column position-static">
+                  <strong className="d-inline-block mb-2 text-primary-emphasis">India</strong>
+                  <h3 className="mb-0">Bihar chief minister, submitted his 'resignation'</h3>
+                  <p className="card-text mb-auto"> 
+                  Bihar chief minister Nitish Kumar, on January 28, submitted his resignation.
+                  </p>
+                  <a href="/niteshkumar" className="icon-link gap-1 icon-link-hover stretched-link">
+                    Continue reading
+                    <svg className="bi">
+                      <use xlinkHref="#chevron-right"></use>
+                    </svg>
+                  </a>
+                </div>
+                <div className="col-auto d-none d-lg-block">
+                <img src={Bihar_CM_Nitish_Kumar_next} className="float-end rounded img-fluid" alt="Loading img.." />
+
+
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Add more carousel items as needed */}
       </div>
       {/* <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
         data-bs-slide="prev">
