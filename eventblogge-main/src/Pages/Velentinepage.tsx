@@ -5,7 +5,7 @@ import BlogCarousel from "../Components/Nextpost";
 import { MainBlog } from "../Components/Utils/MainBlog";
 import VelentineWeek from "../Components/Content/Velentine/VelentineWeeks";
 import VelentineWeekHeading from "../Components/Content/Velentine/VelentineWeeksHeading";
-export const Velentineevent = () => {
+export const Event = () => {
   return (
     <React.Fragment>
         <VelentineWeekHeading/>
