@@ -3,14 +3,14 @@ Hieght:- 600 pixels
 width:- 400 pixels
 
 
-main blog image size:-
+main Heading image size:-
 
-Hieght:- 260 pixels                                     
+Height:- 260 pixels                                     
 width:- 390 pixels
 
 
 next blog image  size:-
 
-Hieght:- 250 pixels                                     
+Height:- 250 pixels                                     
 width:- 250 pixels
 

@@ -1,5 +1,5 @@
 import React from "react";
-import { AdditionalArtical } from "../Utils/AdditionalArticle";
+import { AdditionalArtical } from "../../Utils/AdditionalArticle";
 
 const WorldAdditionalArticle = () => {
     return (

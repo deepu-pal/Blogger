@@ -1,44 +1,28 @@
 import React from "react";
-import ReactVirtualizedTable from "../Add_on/IPLTeamAndVenue";
+import ReactVirtualizedTable from "../../Add_on/IPLTeamAndVenue";
+import DrugHeading from "../../../img/DrugHeading.jpg"
 
 
 const WorldArticle = () => {
     return (
         <React.Fragment>
-        <article className="blog-post">
-        <h2 className="link-body-emphasis mb-1">Sample blog post</h2>
-        <p className="blog-post-meta">January 1, 2021 by <a href="#">Mark</a></p>
-
-        <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic
-            typography, lists, tables, images, code, and more are all supported as expected is best test.</p>
-        <hr />
-        <p>This is some additional paragraph placeholder content. It has been written to fill the available space
-            and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the
-            demonstration flowing, so be on the lookout for this exact same string of text.</p>
-        <h2>Blockquotes</h2>
-        <p>This is an example blockquote in action:</p>
-        <blockquote className="blockquote">
-            <p>Quoted text goes here.</p>
-        </blockquote>
-        <p>This is some additional paragraph placeholder content. It has been written to fill the available space
-            and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the
-            demonstration flowing, so be on the lookout for this exact same string of text.</p>
-        <h3>Example lists</h3>
-        <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other
-            highly repetitive body text used throughout. This is an example unordered list:</p>
-        <ul>
-            <li>First list item</li>
-            <li>Second list item with a longer description</li>
-            <li>Third list item to close it out</li>
-        </ul>
-        <p>And this is an ordered list:</p>
-        <ol>
-            <li>First list item</li>
-            <li>Second list item with a longer description</li>
-            <li>Third list item to close it out</li>
-        </ol>
-        <p>And this is a definition list:</p>
-        <dl>
+        <article className="blog-post fs-5">
+        <h2 className="link-body-emphasis mb-1">Canada police seize over 400kg of drugs at border</h2>
+        <br/>
+        <img src={DrugHeading} className="float-end rounded img-fluid" alt="Loading img.." style={{ width: '100%', height: 'auto' }}/>
+        <br/>
+        <p>The driver of the commercial truck, who was apprehended on January 14, was identified as 29-year-old Komalpreet Sidhu, resident of Winnipeg, the capital of the province of Manitoba.</p>
+        <p>In a release on Wednesday, the Canada Border Services Agency or CBSA said its officers discovered and seized 406.2 kg of suspected methamphetamine, approximately four million illicit doses valued at over CA$50,780,000, following the examination of a commercial truck at the Boissevain port of entry in southern Manitoba.</p>
+       
+        <p>“This is the largest seizure of illegal narcotics to occur in the Prairie Region. The driver was carrying a shipment destined for Winnipeg,” the release said. The Prairie region encompasses the Canadian provinces of Manitoba, Alberta and Saskatchewan.</p>
+       
+        <p>Sidhu was charged with importation of Methamphetamine and Possession of a Controlled Substance for the Purpose of Trafficking. He is expected to appear in Manitoba Law Courts on Thursday.</p>
+        <p>The operation, called Dead Hand, was undertaken between the Federal Bureau of Investigation and the Combined Forces Special Enforcement Unit or CFSEU unit of the Royal Canadian Mounted Police or RCMP.</p>
+        <p>In a release on Tuesday, the RCMP said It “arrested five individuals allegedly linked to a network trafficking drugs between Mexico, the United States and Canada. They were arrested under an international arrest warrant and will be extradited for trial in the United States.”</p>
+        <p>They were identified as Ivan Gravel Gonzalez, 32, of Trois-Rivières, Quebec, Roberto Scoppa, 55, of Montréal, Ayush Sharma, 25, of Brampton, Guramrit Sidhu, 60, of Brampton and Subham Kumar, 29, of Calgary.</p>
+        <p>On January 10, Canadian police announced they had arrested and charged 35-year-old Sukhwinder Dhanju, resident of Brampton in the Greater Toronto Area, for attempting to smuggle into the country cocaine worth approximately CA$ 6.5 million.</p>
+        <p>On December 4, they caught Manpreet Singh, 27, also a resident of Brampton, after the truck he was driving was found to be carrying boxes containing 52 kg of suspected cocaine.</p>
+        {/* <dl>
             <dt>HyperText Markup Language (HTML)</dt>
             <dd>The language used to describe and define the content of a Web page</dd>
             <dt>Cascading Style Sheets (CSS)</dt>
@@ -77,11 +61,11 @@ const WorldArticle = () => {
             demonstration flowing, so be on the lookout for this exact same string of text.</p>
         <pre><code>Example code block</code></pre>
         <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other
-            highly repetitive body text used throughout.</p>
+            highly repetitive body text used throughout.</p> */}
     </article>
 
     
-    <article className="blog-post">
+    {/* <article className="blog-post">
         <h2 className="display-5 link-body-emphasis mb-1">Another blog post</h2>
         <p className="blog-post-meta">December 23, 2020 by <a href="#">Jacob</a></p>
 
@@ -132,7 +116,7 @@ const WorldArticle = () => {
 
         <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other
             highly repetitive body text used throughout.</p>
-    </article>
+    </article> */}
     </React.Fragment>
     );
   };

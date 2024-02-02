@@ -14,6 +14,7 @@ import { NiteshKumar } from "./Pages/IndiaNiteshKumarCMBihar";
 import { Sustainabile } from "./Pages/TechnologySustainableIT";
 import { HemantSeron } from "./Pages/IndiaHemantSeronCMJharkhand";
 import { Blockchains } from "./Pages/TechnologyBlockchain";
+import { GazaPage } from "./Pages/GazaPage";
 function App() {
     const location = useLocation();
 
@@ -38,6 +39,7 @@ function App() {
             <Route path="/politics" index element={<HemantSeron />} />
             <Route path="/technology" index element={<Blockchains />} />
             <Route path="/sustainable" index element={<Sustainabile />} />
+            <Route path="/updates" index element={<GazaPage />} />
           </Routes>
         </div>
       <Footer/>
