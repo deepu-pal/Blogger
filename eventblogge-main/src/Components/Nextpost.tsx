@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import aurora from '../img/Scienceaurora.jpg'
+import auroraImage from '../img/ScienceAurora.jpg'
 import iplteam from '../img/captain.jpg';
 import hemantNextPost from '../img/hemantNextPost.jpg';
 import DrugNext from '../img/DrugNext.jpg';
@@ -64,7 +64,7 @@ const BlogCarousel = () => {
                   </a>
                 </div>
                 <div className="col-auto d-none d-lg-block">
-                  <img src={aurora} className="float-end rounded img-fluid" alt="Loading img.." />
+                  <img src={auroraImage} className="float-end rounded img-fluid" alt="Loading img.." />
                 </div>
               </div>
             </div>
