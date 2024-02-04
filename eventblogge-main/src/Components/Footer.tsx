@@ -9,13 +9,13 @@ const Footer = () => {
           <div className="col-md-4 text-center mb-4">
             <h2>Connect with Us:</h2>
             <div className="social-media-icons mt-4">
-              <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className='mx-2'>
+              <a href="https://www.instagram.com/recenteventblog/" target="_blank" rel="noopener noreferrer" className='mx-2'>
                 <FaInstagram size={30} />
               </a>
-              <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" className='mx-2'>
+              <a href="https://twitter.com/recenteventblog" target="_blank" rel="noopener noreferrer" className='mx-2'>
                 <FaTwitter size={30} />
               </a>
-              <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className='mx-2'>
+              <a href="https://www.facebook.com/profile.php?id=61555814203947/" target="_blank" rel="noopener noreferrer" className='mx-2'>
                 <FaFacebook size={30} />
               </a>
               <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" className='mx-2'>
@@ -27,11 +27,11 @@ const Footer = () => {
           <div className="col-md-4 text-center">
             <h3 className='text-light'>Quick Links:</h3>
             <ul className="list-unstyled">
-              <li><a href="#home">Home</a></li>
-              <li><a href="#events">Events</a></li>
-              <li><a href="#reviews">Sports</a></li>
-              <li><a href="#interviews">Politics</a></li>
-              <li><a href="#guides">Views</a></li>
+              <li><a href="/">Home</a></li>
+              <li><a href="/velentineevent">Events</a></li>
+              <li><a href="/sports">Sports</a></li>
+              <li><a href="/politics">Politics</a></li>
+              <li><a href="/science">Science</a></li>
             </ul>
           </div>
 

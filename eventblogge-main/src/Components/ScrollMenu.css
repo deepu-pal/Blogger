@@ -13,3 +13,8 @@
   .scrollmenu a:hover {
     background-color: #fcf8f8;
   }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #000;
+}

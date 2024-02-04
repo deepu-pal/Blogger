@@ -2,10 +2,10 @@ import React from "react";
 
 
 import BlogCarousel from "../Components/Nextpost";
-import WorldHeading from "../Components/Content/WorldHeading";
+import WorldHeading from "../Components/Content/World/WorldHeading";
 import { MainBlog } from "../Components/Utils/MainBlog";
-import WorldArticle from "../Components/Content/World";
-import WorldAdditionalArticle from "../Components/Content/WorldAdditionalArticle";
+import WorldArticle from "../Components/Content/World/World";
+
 
 
 
@@ -16,7 +16,7 @@ export const WorldPage = () => {
         <BlogCarousel/>
         <MainBlog>
         <WorldArticle />
-        <WorldAdditionalArticle />
+        {/* <WorldAdditionalArticle /> */}
         </MainBlog>
         
     </React.Fragment>

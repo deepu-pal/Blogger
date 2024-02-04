@@ -7,39 +7,50 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import { TableVirtuoso, TableComponents } from 'react-virtuoso';
-import {Data,ColumnData} from '../Ipldata';
-import { teamCaptian } from '../Content/IplContents';
 
+import { teamVenue } from '../Content/IPL/IplContents';
 
+export interface teamAndCity{
+    id:number;
+    city: string;
+    venue:string;  
+  }
+
+export interface ColumnData {
+    dataKey: keyof teamAndCity;
+    label: string;
+    numeric?: boolean;
+    width: number;
+  }
 function createData(
   id: number,
-  team: string,
-  captain: string,
-): Data {
-  return { id,team, captain};
+  city: string,
+  venue: string,
+): teamAndCity {
+  return { id,city, venue};
 }
 
 const columns: ColumnData[] = [
   {
     width: 200,
     label: 'City Name',
-    dataKey: 'team',
+    dataKey: 'city',
   },
   {
     width: 120,
-    label: 'Captain',
-    dataKey: 'captain',
+    label: 'Venue',
+    dataKey: 'venue',
 
   },
  
 ];
 
-const rows: Data[] = Array.from({ length: 9 }, (_, index) => {
-  const randomSelection = teamCaptian[index % teamCaptian.length];
+const rows: teamAndCity[] = Array.from({ length: 9 }, (_, index) => {
+  const randomSelection = teamVenue[index % teamVenue.length];
   return createData(index, ...randomSelection);
 });
 
-const VirtuosoTableComponents: TableComponents<Data> = {
+const VirtuosoTableComponents: TableComponents<teamAndCity> = {
   Scroller: React.forwardRef<HTMLDivElement>((props, ref) => (
     <TableContainer component={Paper} {...props} ref={ref} />
   )),
@@ -57,7 +68,7 @@ function fixedHeaderContent() {
   return (
     <TableRow>
       {columns.map((column) => (
-        <TableCell
+        <TableCell className='fw-bold fs-6'
           key={column.dataKey}
           variant="head"
           align={column.numeric || false ? 'right' : 'left'}
@@ -73,11 +84,11 @@ function fixedHeaderContent() {
   );
 }
 
-function rowContent(_index: number, row: Data) {
+function rowContent(_index: number, row: teamAndCity) {
   return (
     <React.Fragment>
       {columns.map((column) => (
-        <TableCell
+        <TableCell 
           key={column.dataKey}
           align={column.numeric || false ? 'right' : 'left'}
         >
@@ -88,7 +99,7 @@ function rowContent(_index: number, row: Data) {
   );
 }
 
-export default function ReactVirtualizedTable() {
+export default function TeamAndCaptain() {
   return (
     <Paper style={{ height: 400, width: '100%' }}>
       <TableVirtuoso

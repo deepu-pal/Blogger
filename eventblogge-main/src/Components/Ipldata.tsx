@@ -10,5 +10,7 @@ export interface ColumnData {
         numeric?: boolean;
         width: number;
       }
+  
+
     
     

@@ -1,0 +1,16 @@
+Side image ads size:- 
+Hieght:- 600 pixels                                     
+width:- 400 pixels
+
+
+main Heading image size:-
+
+Height:- 260 pixels                                     
+width:- 390 pixels
+
+
+next blog image  size:-
+
+Height:- 250 pixels                                     
+width:- 250 pixels
+

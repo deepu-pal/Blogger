@@ -1,9 +1,5 @@
 import React from "react";
-
-import { Col, Container, Row } from "react-bootstrap";
-import ramImage from '../../img/ram3.jpg';
-import { FeaturedBlogPost } from "../Utils/Blog";
-import { AdditionalArtical } from "../Utils/AdditionalArticle";
+import { AdditionalArtical } from "../../Utils/AdditionalArticle";
 
 const WorldAdditionalArticle = () => {
     return (
