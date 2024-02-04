@@ -7,11 +7,11 @@ import GazaNext from '../img/GazaNext.jpg';
 import Bihar_CM_Nitish_Kumar_next from '../img/Bihar_CM_Nitish_Kumar_next.jpg';
 import SustanableIT from '../img/SustanableIT.jpg';
 import footballNext from '../img/footballNext.jpg';
-import VelentineNext from '../img/footballNext.jpg';
-
+import VelentineNext from '../img/VelentineNext.jpg';
+ 
 const BlogCarousel = () => {
-
-
+ 
+ 
   return (
     <div id="carouselExampleIndicators" className="carousel slide container" data-bs-ride="carousel">
       <div className="carousel-indicators">
@@ -21,6 +21,10 @@ const BlogCarousel = () => {
           aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
           aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+          aria-label="Slide 5"></button>
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active">
@@ -40,8 +44,8 @@ const BlogCarousel = () => {
                 </div>
                 <div className="col-auto d-none d-lg-block">
                   <img src={iplteam} className="float-end rounded img-fluid" alt="Loading img.." />
-
-
+ 
+ 
                 </div>
               </div>
             </div>
@@ -83,9 +87,9 @@ const BlogCarousel = () => {
                 </div>
                 <div className="col-auto d-none d-lg-block">
                   <img src={hemantNextPost} className="float-end rounded img-fluid" alt="Loading img.." />
-
-
-
+ 
+ 
+ 
                 </div>
               </div>
             </div>
@@ -94,7 +98,7 @@ const BlogCarousel = () => {
                 <div className="col p-4 d-flex flex-column position-static">
                   <strong className="d-inline-block mb-2 text-success-emphasis">Technology</strong>
                   <h3 className="mb-0">Reducing the Environmental Footprint </h3>
-
+ 
                   <p className="mb-auto">  In an era where technological advancements are transforming the way we live and work...
                     .</p>
                   <a href="/sustainable" className="icon-link gap-1 icon-link-hover stretched-link">
@@ -136,7 +140,7 @@ const BlogCarousel = () => {
                 <div className="col p-4 d-flex flex-column position-static">
                   <strong className="d-inline-block mb-2 text-success-emphasis">Update</strong>
                   <h3 className="mb-0">Live updates: What’s happening in the Israel-Hamas war </h3>
-
+ 
                   <p className="mb-auto">  Hundreds of foreign nationals and dozens of seriously injured ...</p>
                   <a href="/updates" className="icon-link gap-1 icon-link-hover stretched-link">
                     Continue reading
@@ -243,5 +247,5 @@ const BlogCarousel = () => {
     </div>
   );
 }
-
+ 
 export default BlogCarousel;
